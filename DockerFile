@@ -2,6 +2,6 @@ FROM openjdk:17-jdk
 
 WORKDIR /app
 
-COPY target/seu-app.jar app.jar
+COPY target/demo.jar app.jar
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
